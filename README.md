@@ -15,4 +15,4 @@ Analyzed Amazon Sales data using SQL queries to extract key Performance metrics 
 
 ## Data set :
 
-amazon_sales_data 2025.csv
+[amazon_sales_data 2025.csv](https://github.com/JMK-26/SQL-Query-Analysis-of-Amazon-Sales-Data-2025-/blob/main/amazon_sales_data%202025.csv)
