@@ -1,3 +1,6 @@
+
+![Amazon_database MYSQL](https://github.com/user-attachments/assets/ceef428c-90c9-4b0c-a910-cffdb084fa5c)
+
 # SQL-Query-Analysis-of-Amazon-Sales-Data-2025 
 Analyzed Amazon Sales data using SQL queries to extract key Performance metrics and customer insights.
 
