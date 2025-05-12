@@ -57,7 +57,7 @@ Goal : Show all the Information for Order that have the Status ‘Completed’.
                            
 ## Explanation :
 
-This uses to SELECT * to get all columns and the WHERE clause to filter rows where the status column value is exactly ‘Completed’.
+>This uses to SELECT * to get all columns and the WHERE clause to filter rows where the status column value is exactly ‘Completed’.
  
 ## Out put : SQL 
 
@@ -81,7 +81,7 @@ Goal : Find the sum of Total_sales for each Product category.
 
 ### Explanation :
 
-Sum(Total_Sales) Calculates the sum of sale for each Group,
+>Sum(Total_Sales) Calculates the sum of sale for each Group,
 
 •	Group by category group the rows by category so the sum is Calculated for each distinct category.
 
@@ -113,7 +113,7 @@ Goal : List the Top  5 order with the hights Total_Sales Value.
 
 ### Explanation : 
   
-  Select key detail of the orders.
+  >Select key detail of the orders.
   
 •	ORDER BY Total_Sales DESC stort all orders from the hightest sales amount to the Lowest.
 
@@ -141,7 +141,7 @@ Goal : Determine how many order were placed using each payment Method.
  
 ### Explanation :
 
-Count (Order_ID) count the number of order (using the unique Order_ID).
+>Count (Order_ID) count the number of order (using the unique Order_ID).
 
 •	Group by Payment Method groups the rows by payment method.
 
@@ -162,7 +162,7 @@ Goal : Show order placed within a  Specific month and Year.
 
 ### Explanation :
 
-Uses the WHERE clause with a data range Condition.
+>Uses the WHERE clause with a data range Condition.
 
 •	It select rows where the between the First and Last day of march 2025.
 ### OUT PUT SQL :
@@ -185,7 +185,8 @@ Goal : Find the Total number of unit Sold (Quantity) For each distinct Product.
 
 ### Explanation : 
 
-Quantity instead of Total_Sale, It group by Product and calculates the total quantity for each, Ordering by the highest Quntity first.
+>Quantity instead of Total_Sale, It group by Product and calculates the total quantity for each, Ordering by the highest Quntity first.
+
 ### OUT PUT SQL :
 
 [SQL-Cousor/sql_query_Qunatity_Sold_Per_Product-6.csv](https://github.com/JMK-26/SQL-Query-Analysis-of-Amazon-Sales-Data-2025-/blob/main/SQL-Cousor/sql_query_Qunatity_Sold_Per_Product-6.csv)
@@ -261,7 +262,7 @@ Goal : Get a List of all distinct Location from where order have been placed wit
 
 ### Explantion :
 
-The distinct keyword eliminated duplicate Values in the selected column (customer_Location).
+>The distinct keyword eliminated duplicate Values in the selected column (customer_Location).
 
 •	Returning unique Value location only once.
 
@@ -289,8 +290,7 @@ Goal : Calculated the Total amount spent (Total_Sales) by each Customer, but onl
 
 ### Explantion :
 
-First, it filter only completed orders using WHERE,
-
+>First, it filter only completed orders using WHERE,
 
 •	Then, it Group by result by customer_Name and calculates the sum (Total_Sales) for each customer, finally.
 
@@ -320,5 +320,6 @@ Top 4 Spenders (Completed orders) : Shows the names of Four Customers who have s
 
 
 ### JMK   project
+
 
 
