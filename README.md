@@ -1,5 +1,5 @@
 
-![District PGI i - visual selection](https://github.com/user-attachments/assets/0fa6b0eb-432d-4b04-9063-4a2fd95fa855)
+
 
 # SQL-Query-Analysis-of-Amazon-Sales-Data-2025 
 Analyzed Amazon Sales data using SQL queries to extract key Performance metrics and customer insights.
